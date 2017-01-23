@@ -17,10 +17,10 @@ fi
 
 LC_ALL=C DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends openssl jq
 
-curl -o /usr/sbin/cfssl -SL  https://github.com/docker-ppc64le/docker-light-baseimage/raw/stable/assets/cfssl
+curl -o /usr/sbin/cfssl -SL https://github.com/harsha544/docker-light-baseimage/raw/stable/assets/cfssl
 chmod 755 /usr/sbin/cfssl
 
-curl -o /usr/sbin/cfssljson -SL  https://github.com/docker-ppc64le/docker-light-baseimage/raw/stable/assets/cfssljson
+curl -o /usr/sbin/cfssljson -SL https://github.com/harsha544/docker-light-baseimage/raw/stable/assets/cfssljson
 chmod 755 /usr/sbin/cfssljson
 
 # remove tools installed to download cfssl
