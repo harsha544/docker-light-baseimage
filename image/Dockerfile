@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM s390x/debian:jessie
 MAINTAINER Bertrand Gouny <bertrand.gouny@osixia.net>
 
 ADD . /container
